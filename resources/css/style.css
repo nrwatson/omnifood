@@ -338,6 +338,8 @@ blockquote:after {
     content: "\201D";
     font-size: 400%;
     display: block;
+    float: right;
+    padding-right: 120px;
 }
 
 cite img {
@@ -357,7 +359,7 @@ section {
 
 .btn:link, 
 .btn:visited,
-input[type=submit] {
+input[type="submit"] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
